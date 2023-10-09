@@ -9,7 +9,7 @@ import ContactButton from './components/ContactButton';
 export default function Home() {
 
   return (
-    <body className='bg-gradient-all w-full h-full '>
+    <div className='bg-gradient-all w-full h-full '>
       <Header />
       <div className='pl-5 flex-col-reverse lg:flex justify-evenly flex pt-10 lg:flex-row bg-inherit items-center'>
         <div>
@@ -40,7 +40,6 @@ export default function Home() {
                   <svg width="25" height="25" viewBox="0 0 313 298" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M65.6873 33.1258C65.683 41.907 62.2185 50.3267 56.056 56.5328C49.8936 62.7389 41.5379 66.2229 32.8272 66.2186C24.1166 66.2142 15.7644 62.7217 9.60807 56.5094C3.45177 50.2971 -0.00435123 41.8738 4.11139e-06 33.0927C0.00435945 24.3116 3.46884 15.8919 9.6313 9.68578C15.7938 3.47969 24.1494 -0.00438642 32.8601 4.14464e-06C41.5708 0.00439471 49.9229 3.49689 56.0792 9.70919C62.2355 15.9215 65.6917 24.3447 65.6873 33.1258ZM66.6726 90.736H0.985313V298H66.6726V90.736ZM170.459 90.736H105.1V298H169.802V189.236C169.802 128.646 248.134 123.018 248.134 189.236V298H313V166.722C313 64.5796 197.062 68.3872 169.802 118.548L170.459 90.736Z" fill="White" />
                   </svg>
-
                 }
                 name="Linkedin"
                 link='https://www.linkedin.com/in/fernando-alves-machado/'
@@ -90,7 +89,9 @@ export default function Home() {
         </div>
       </div>
       <div className=' bg-hero-pattern bg-cover bg-blend-overlay bg-black mt-12 lg:items-center bg-opacity-30 flex-col mb-14 flex items-center justify-center w-full h-52 bg-repeat-x bg-fixed '>
-        <h1 className='font-bold text-2xl lg:text-3xl text-center'>"Tudo o que for fazer, sempre faça bem feito!"</h1>
+        <div className='font-thin text-1xl max-w-4xl text-center'>
+          "Tudo o que for fazer, sempre faça bem feito!"
+        </div>
         <span className='font-thin text-2xl'> -Meu pai</span>
         <span className='font-thin text-1xl max-w-4xl text-center'>Um conselho dado de pai para filho que levo para todas as áreas da minha vida, sempre fazendo tudo ao meu alcance para superar expectativas.</span>
       </div>
@@ -143,6 +144,6 @@ export default function Home() {
         <h1>Entre em contato:</h1>
       </div>
 
-    </body >
+    </div >
   )
 }
