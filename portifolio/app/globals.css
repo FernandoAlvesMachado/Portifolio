@@ -1,0 +1,100 @@
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: linear-gradient(270deg, #0070d9, #0040ff);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+   color: rgb(var(--foreground-rgb));
+  /*background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+@-webkit-keyframes AnimationName {
+  0% { background-position: 0% 44%; }
+  50% { background-position: 100% 57%; }
+  100% { background-position: 0% 44%; }
+}
+
+@-moz-keyframes AnimationName {
+  0% { background-position: 0% 44%; }
+  50% { background-position: 100% 57%; }
+  100% { background-position: 0% 44%; }
+}
+
+@-o-keyframes AnimationName {
+  0% { background-position: 0% 44%; }
+  50% { background-position: 100% 57%; }
+  100% { background-position: 0% 44%; }
+}
+
+@keyframes AnimationName {
+  0% { background-position: 0% 44%; }
+  50% { background-position: 100% 57%; }
+  100% { background-position: 0% 44%; }
+}
+
+.bg-gradient-all{  background: linear-gradient(270deg, #0070d9, #0040ff);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+
+}
+
+
+
+  .slide-in-right {
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
