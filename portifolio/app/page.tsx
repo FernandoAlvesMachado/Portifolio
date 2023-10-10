@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Header from './components/Header';
-import Card from './components/Card.tsx';
+import Card from './components/Card';
 import Habilities from './components/Habilities';
 import ContactButton from './components/ContactButton';
 
@@ -90,7 +90,7 @@ export default function Home() {
       </div>
       <div className=' bg-hero-pattern bg-cover bg-blend-overlay bg-black mt-12 lg:items-center bg-opacity-30 flex-col mb-14 flex items-center justify-center w-full h-52 bg-repeat-x bg-fixed '>
         <div className='font-thin text-1xl max-w-4xl text-center'>
-          "Tudo o que for fazer, sempre faça bem feito!"
+          &ldquo;Tudo o que for fazer, sempre faça bem feito!&rdquo;
         </div>
         <span className='font-thin text-2xl'> -Meu pai</span>
         <span className='font-thin text-1xl max-w-4xl text-center'>Um conselho dado de pai para filho que levo para todas as áreas da minha vida, sempre fazendo tudo ao meu alcance para superar expectativas.</span>
