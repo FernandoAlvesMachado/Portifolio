@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import Header from './components/Header';
 import Card from './components/Card';
 import Habilities from './components/Habilities';
@@ -80,7 +80,7 @@ export default function Home() {
         <div className='hover:scale-125 transition-transform slide-in-right'>
           <a href="https://github.com/FernandoAlvesMachado">
             <Image
-              src="/./../Images/Perfil.png"
+              src='/Perfil.svg'
               alt="Meu perfil"
               width={500}
               height={500}
@@ -140,9 +140,9 @@ export default function Home() {
       <div>
 
       </div>
-      <div className='flex flex-wrap lg:flex lg:items-center lg:justify-center h-48 text-3xl font-bold justify-center'>
-        <h1>Ficaria feliz em compartilhar mais sobre minhas experiências!</h1>
-        <h1>Obrigado!</h1>
+      <div className='flex flex-wrap lg:flex lg:items-center lg:justify-center h-48 text-3xl font-bold flex-col gap-2 justify-center'>
+        <h1>Obrigado</h1>
+        <h2 className='text-sm font-thin'>Ficaria feliz em compartilhar mais sobre minhas experiências!</h2>
       </div>
 
     </div >
