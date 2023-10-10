@@ -80,7 +80,7 @@ export default function Home() {
         <div className='hover:scale-125 transition-transform slide-in-right'>
           <a href="https://github.com/FernandoAlvesMachado">
             <Image
-              src="/./../Images/perfil.svg"
+              src="/./../Images/Perfil.png"
               alt="Meu perfil"
               width={500}
               height={500}
@@ -140,8 +140,9 @@ export default function Home() {
       <div>
 
       </div>
-      <div className='flex flex-wrap lg:flex lg:items-center lg:justify-center text-3xl font-bold justify-center'>
-        <h1>Entre em contato:</h1>
+      <div className='flex flex-wrap lg:flex lg:items-center lg:justify-center h-48 text-3xl font-bold justify-center'>
+        <h1>Ficaria feliz em compartilhar mais sobre minhas experiências!</h1>
+        <h1>Obrigado!</h1>
       </div>
 
     </div >
