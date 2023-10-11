@@ -143,7 +143,7 @@ export default function Home() {
             <div >
               <a href="https://github.com/FernandoAlvesMachado">
                 <Image
-                  src='/Perfilv2.svg'
+                  src='/perfilV2.svg'
                   alt="Meu perfil novo"
                   width={500}
                   height={500}
