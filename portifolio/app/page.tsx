@@ -3,13 +3,15 @@ import Header from './components/Header';
 import Card from './components/Card';
 import Habilities from './components/Habilities';
 import ContactButton from './components/ContactButton';
+import TextoSobreLerMais from './components/TextoSobreLerMais';
+
 
 
 
 export default function Home() {
 
   return (
-    <div className='bg-gradient-all w-full h-full '>
+    <div className='bg-gradient-all w-full h-full  '>
       <Header />
       <div className='pl-5 flex-col-reverse lg:flex justify-evenly flex pt-10 lg:flex-row bg-inherit items-center'>
         <div>
@@ -28,7 +30,7 @@ export default function Home() {
             </a>
             <a
               href='https://api.whatsapp.com/send?phone=5567998128389'
-              className='bg-white border-2 hover:scale-110 transition-transform border-blue-700 px-10 py-2 shadow-white text-blue-700 font-semibold shadow-2xl rounded-full'>
+              className='bg-white border-2 items-center text-lg justify-center  hover:scale-110 transition-transform border-blue-700 px-10 py-2 shadow-white text-blue-700 font-semibold shadow-2xl rounded-full'>
               Entrar em contato
             </a>
 
@@ -89,10 +91,9 @@ export default function Home() {
         </div>
       </div>
       <div className=' bg-hero-pattern bg-cover bg-blend-overlay bg-black mt-12 lg:items-center bg-opacity-30 flex-col mb-14 flex items-center justify-center w-full h-52 bg-repeat-x bg-fixed '>
-        <div className='font-thin text-1xl max-w-4xl text-center'>
+        <div className='font-semibold text-3xl max-w-4xl text-center'>
           &ldquo;Tudo o que for fazer, sempre faça bem feito!&rdquo;
         </div>
-        <span className='font-thin text-2xl'> -Meu pai</span>
         <span className='font-thin text-1xl max-w-4xl text-center'>Um conselho dado de pai para filho que levo para todas as áreas da minha vida, sempre fazendo tudo ao meu alcance para superar expectativas.</span>
       </div>
       <div className='lg:items-center lg:justify-center transition-transform lg:flex lg:flex-row flex-wrap flex justify-center items-center w-full h-full  '>
@@ -135,14 +136,30 @@ export default function Home() {
         />
       </div>
       <div>
-        <Habilities />
-      </div>
-      <div>
 
+        <div className='w-full transition-transform flex items-center justify-center p-10 '>
+          <div className='lg:w-3/4 transition-transform lg:flex-row lg:flex  justify-center items-center flex-col-reverse flex'>
+            <TextoSobreLerMais />
+            <div>
+              <a href="https://github.com/FernandoAlvesMachado">
+                <Image
+                  className=' rounded-full shadow-black drop-shadow-lg'
+                  src='/Perfilv2.png'
+                  alt="Meu perfil"
+                  width={700}
+                  height={1280}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Habilities />
+        </div>
       </div>
-      <div className='flex flex-wrap lg:flex lg:items-center lg:justify-center h-48 text-3xl font-bold flex-col gap-2 justify-center'>
+      <div className='flex items-center flex-wrap lg:flex lg:items-center lg:justify-center h-48 text-3xl font-bold flex-col gap-2 justify-center'>
         <h1>Obrigado</h1>
-        <h2 className='text-sm font-thin'>Ficaria feliz em compartilhar mais sobre minhas experiências!</h2>
+        <h2 className='text-sm font-light'>Ficaria feliz em compartilhar mais sobre minhas experiências!</h2>
       </div>
 
     </div >

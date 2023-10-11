@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
+        'bg-pattern02': "url('/./../Images/bg-pattern-02.png')",
         'hero-pattern': "url('/./../Images/patternpad.svg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
