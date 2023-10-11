@@ -138,7 +138,7 @@ export default function Home() {
       <div>
 
         <div className='w-full transition-transform flex items-center justify-center p-10 '>
-          <div className='w-3/4 transition-transform lg:flex-row lg:flex  justify-center items-center flex-col-reverse flex'>
+          <div className=' transition-transform lg:flex-row lg:flex  justify-center items-center flex-col-reverse flex'>
             <TextoSobreLerMais />
             <div>
               <a href="https://github.com/FernandoAlvesMachado">
