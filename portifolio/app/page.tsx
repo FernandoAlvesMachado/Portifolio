@@ -137,14 +137,14 @@ export default function Home() {
       </div>
       <div>
 
-        <div className='w-full transition-transform flex items-center justify-center p-10 '>
-          <div className=' transition-transform lg:flex-row lg:flex  justify-center items-center flex-col-reverse flex'>
+        <div className='transition-transform flex items-center justify-center p-10 '>
+          <div className='transition-transform lg:flex-row lg:flex  justify-center items-center flex-col-reverse flex'>
             <TextoSobreLerMais />
             <div>
               <a href="https://github.com/FernandoAlvesMachado">
                 <Image
                   className=' rounded-full shadow-black drop-shadow-lg'
-                  src='/Perfilv2.png'
+                  src='/Perfilv2.svg'
                   alt="Meu perfil"
                   width={700}
                   height={1280}
