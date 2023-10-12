@@ -13,7 +13,7 @@ const BotaoLerMais = () => {
   };
 
   return (
-    <div className='w-2/5 transition-max-height transition-transform flex items-center justify-center p-10 '>
+    <div className=' w-full lg:w-2/5 transition-max-height transition-transform flex items-center justify-center lg:p-10 '>
       <div className='transition-max-height transition-transform flex flex-col max-w-4xl gap-3  text-justify' >
         <div className='items-center flex justify-center lg:justify-start'>
 
