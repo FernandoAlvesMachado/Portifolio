@@ -23,13 +23,13 @@ const FormEnviar = () => {
 
     return (
         <div
-            className="relative flex w-1/2 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            className="relative flex lg:w-2/1 w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
         >
             <div
                 className="relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tr from-blue-700 to-blue-400 bg-clip-border text-white shadow-lg shadow-cyan-500/40"
             >
                 <h3
-                    className="font-sans text-center justify-center text-3xl align-middle flex items-center font-semibold leading-snug tracking-normal text-white antialiased"
+                    className="font-sans text-center justify-center lg:text-3x1 text-2xl align-middle flex items-center font-semibold leading-snug tracking-normal text-white antialiased"
                 >
                     Entre em contato comigo!
                 </h3>
