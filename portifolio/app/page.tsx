@@ -4,6 +4,7 @@ import Card from './components/Card';
 import Habilities from './components/Habilities';
 import ContactButton from './components/ContactButton';
 import TextoSobreLerMais from './components/TextoSobreLerMais';
+import FormEnviar from './components/FormEnviar';
 
 
 
@@ -155,6 +156,9 @@ export default function Home() {
         <div>
           <Habilities />
         </div>
+      </div>
+      <div className='flex items-center w-full justify-center p-28'>
+        <FormEnviar />
       </div>
       <div className='flex items-center flex-wrap lg:flex lg:items-center lg:justify-center h-48 text-3xl font-bold flex-col gap-2 justify-center'>
         <h1>Obrigado</h1>
